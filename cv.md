@@ -25,9 +25,9 @@ In my current job, I have to constantly work in an application written using HTM
 ___
 
 ```javascript
-function arrayDiff(a, b) {
-    return a.filter((item) => {
-        return b.every(elem => { return elem != item })
+function arrayDiff(A, B) {
+    return A.filter((item) => {
+        return B.every(elem => { return elem != item })
     });
 }
 ```
